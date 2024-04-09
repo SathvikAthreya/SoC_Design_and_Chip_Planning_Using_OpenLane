@@ -1,5 +1,7 @@
 # SoC_Design_and_Chip_Planning_Using_OpenLane_Flow_Report
-#Design Flow Overview
+# Day 1
+-----
+## Design Flow Overview
 
 Testbench in C: In ASIC design, a testbench is used to verify the functionality of the RTL design. It's typically written in HDL (like Verilog or VHDL) but can interface with C/C++ for higher-level control or complex test scenarios.
 ASIC Design Flow: ASIC (Application-Specific Integrated Circuit) design involves a series of steps to create custom integrated circuits tailored for specific applications.
@@ -17,4 +19,4 @@ SOC Design Workshop: A System-on-Chip (SoC) design workshop focuses on the desig
 Physical Verification: This is where the physical design is checked against design rules and constraints to ensure it can be manufactured correctly without issues like shorts, opens, or other layout-specific problems.
 <img width="589" alt="Screenshot 2024-03-27 202140" src="https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/682f6375-b8bb-4a4d-8e67-1b080c30599d">
 
-#Openlane Directory
+## Openlane Directory

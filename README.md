@@ -53,7 +53,7 @@ Number of FF: 1613
 
 After running the floor plan command 
 
-![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/709f5c96-3fe4-47af-8b46-ce236addf4c3)
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4b955c8f-aaa4-4c27-8af4-712cbc054464)
 
 ![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4aa3ef4f-7f0b-4177-8ed9-285b0fbc207b)
 
@@ -69,6 +69,9 @@ Distance in micron =                  value
  Die height in micron =                     671405 
                                            ---------
                                              1000
- Area of die in micron = 660.685*671.405 Square micron
+
+the width of chip is 660.685 micrometer and height of the chip is 671.405 micrometer.
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/225b88eb-8cb7-44aa-88c2-27cf7879443d)
 
 

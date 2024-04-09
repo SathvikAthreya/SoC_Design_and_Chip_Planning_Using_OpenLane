@@ -85,3 +85,81 @@ Based on the preceding outcomes, we can produce a floor plan that incorporates e
 # Day 3
 ## Design library cell using Magic Layout and ngspice characterization
 
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/5eb1ac78-d0d5-4041-b309-0fef69f6fd4d)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/06525262-4f28-4b05-903a-8d24624af7d8)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/9ae15031-2fb7-428f-85ea-d95dafb4f777)
+
+Today's lab covers the entire process of simulating an inverter using ngspice and the Magic EDA tool. Begin by changing to the specified directory to clone the necessary files from GitHub onto your local PC. Then, open a new terminal and navigate to this location. Copy the `sky130A.tech` file from its current location to the directory where you cloned the GitHub files. Finally, start up the Magic tool by initializing it in the terminal.
+
+Inverter layout
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/8ad0ab03-aa89-4a94-85d2-3a1ee9c53464)
+
+nmos 
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/c7acb6dd-595c-43ec-a6df-8e52fbc3ef8f)
+
+pmos
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/07c7e70f-a3bd-4efa-ab45-dd91b65b7b81)
+
+Extract all the files
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/f1161c99-4cd9-460f-9205-9d5c2c3e6550)
+
+##  ngspice
+
+To load spice file type the command - ngspice sky130_inv.spice followed by plot y vs time a
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4dc3f73b-90e8-4d85-b81f-9e71cba6c493)
+
+Output
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/35ea7375-b14d-4c90-b16e-842da6918e21)
+
+Screenshot at 20%
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/8e2ae89f-d2d2-49d7-b857-f3485adec976)
+
+Screenshot at 80%
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/76442d83-d19c-40cd-a4d8-04ce8507bd0e)
+
+Rise time = 2.2464 - 2.1825 = 0.0639 ns = 63.9ps
+
+Screenshot at 50% values of input and output
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/2f986a19-920f-42fa-aa9e-121946ba722e)
+Rise Cell Delay = 2.2121ns - 2.1516ns = 0.0605ns = 60.5ps
+
+Screenshot at 50% values of input and output
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/9f4e80b1-67a7-4025-b1c7-857c0f176fa1)
+Fall Cell Delay = 4.077 - 4.050 = ns = 27ps
+
+## Finding Errors in DRC by Magic tool
+
+Sky130A Periphery rules: https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
+
+ ![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/174e8a89-b6ca-4c71-b238-09fa0666360d)
+ 
+To start magic, we use magic -d XR & for better display graphics using XR instead of the default X11. Using the GUI, click open to view the Met3.mag file in the viewer. As previously detailed, select a cell and in the TK console type cif see VIA2 to view the mask layer for via2, used in the final GDSII that is generated.
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/6717a89a-6e00-487b-8670-8a44f51a97f3)
+
+
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/e0eca2c9-83f3-4cb1-a049-cc82a8b2d1b9)
+
+Change of Commands in sky130A.tech file
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/2aaae403-a8fc-4fc9-b3ba-17bffb128b48)
+
+Updating sky130A.tech file
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/c4b2fbd2-997a-4884-be68-a20629773419)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/8d8cf024-5148-48ba-920d-c6c2baf58746)
+
+the deep nwell is shown in the yellow stripes and the nwell is shown in dotted green pattern.
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/26e78e96-ef35-45ed-984d-64718ba0cd61)
+

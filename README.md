@@ -74,4 +74,14 @@ the width of chip is 660.685 micrometer and height of the chip is 671.405 microm
 
 ![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/225b88eb-8cb7-44aa-88c2-27cf7879443d)
 
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4693675b-37a7-4ee9-992b-6a4382e8e2a2)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/153d3001-cf54-4dc8-ae67-8ce1655db0d1)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/ef546b52-3044-4524-b06a-28042c646aec)
+
+Based on the preceding outcomes, we can produce a floor plan that incorporates evenly spaced ports, equally spaced Decap and Tap cells. Following this placement, the standard cells are successfully positioned in compliance with legal placement rules.
+
+# Day 3
+## Design library cell using Magic Layout and ngspice characterization
 

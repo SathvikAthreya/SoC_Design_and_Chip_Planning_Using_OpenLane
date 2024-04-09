@@ -20,3 +20,33 @@ Physical Verification: This is where the physical design is checked against desi
 <img width="589" alt="Screenshot 2024-03-27 202140" src="https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/682f6375-b8bb-4a4d-8e67-1b080c30599d">
 
 ## Openlane Directory
+
+![Screenshot 2024-04-03 110119](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/fbf41c74-0b66-414e-8828-c5dd047599a0)
+
+## To open the Openlane
+
+![Screenshot 2024-04-03 112134](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/69046fea-1e58-4722-a2a1-c3854a15d1cf)
+
+## To run the Synthesis
+
+![Screenshot 2024-04-09 194526](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4f0269ce-fdd9-4aa7-a372-bd9277eaafc8)
+
+## Calculating Flop Ratio
+
+![Screenshot 2024-04-03 124809](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/5cddb022-96be-4d51-9a2e-c3d43263093d)
+
+Number of cells: 14876
+Number of FF: 1613
+
+         Flop ratio in (%) = Total No of D-FF
+                           --------------------  X 100
+                            Total No of Cells
+                            
+                          = 1613
+                          --------   X 100
+                            14876 
+
+                          = 10.8429685
+                          
+# Day 2
+## Florplan and Placement Stage

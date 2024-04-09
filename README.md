@@ -163,3 +163,5 @@ the deep nwell is shown in the yellow stripes and the nwell is shown in dotted g
 
 ![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/26e78e96-ef35-45ed-984d-64718ba0cd61)
 
+
+# Day 4

@@ -50,3 +50,25 @@ Number of FF: 1613
                           
 # Day 2
 ## Florplan and Placement Stage
+
+After running the floor plan command 
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/709f5c96-3fe4-47af-8b46-ce236addf4c3)
+
+![image](https://github.com/SathvikAthreya/SoC_Design_and_Chip_Planning_Using_OpenLane/assets/165768197/4aa3ef4f-7f0b-4177-8ed9-285b0fbc207b)
+
+1000 unit distance = 1 Micron
+Distance in micron =                  value
+                                     ----------
+                                      1000
+
+ Die width in micron =                    660685 
+                                         ---------
+                                          1000
+                            
+ Die height in micron =                     671405 
+                                           ---------
+                                             1000
+ Area of die in micron = 660.685*671.405 Square micron
+
+
